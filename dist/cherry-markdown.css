@@ -3700,125 +3700,125 @@ div[data-type=codeBlock] .token.inserted {
 /** 预览区域样式 */
 /** markdown样式 */
 /** 编辑器样式 */
-.cherry.theme__VIOLET {
+.cherry.theme__MACIDER {
   /** 顶部按钮, 选中文字时弹出的按钮, 光标focus到空行时联想出的按钮, 侧边栏按钮 */
   /** 二级菜单 */
   /** 选中文字时弹出的按钮 */
   /** 光标focus到空行时联想出的按钮 */
 }
-.cherry.theme__VIOLET .cherry-toolbar,
-.cherry.theme__VIOLET .cherry-floatmenu,
-.cherry.theme__VIOLET .cherry-bubble,
-.cherry.theme__VIOLET .cherry-sidebar {
-  background: #FFF;
-  border-color: #FFF;
+.cherry.theme__MACIDER .cherry-toolbar,
+.cherry.theme__MACIDER .cherry-floatmenu,
+.cherry.theme__MACIDER .cherry-bubble,
+.cherry.theme__MACIDER .cherry-sidebar {
+  background: #f3ed41;
+  border-color: #f3ed41;
 }
-.cherry.theme__VIOLET .cherry-toolbar .cherry-toolbar-button,
-.cherry.theme__VIOLET .cherry-floatmenu .cherry-toolbar-button,
-.cherry.theme__VIOLET .cherry-bubble .cherry-toolbar-button,
-.cherry.theme__VIOLET .cherry-sidebar .cherry-toolbar-button {
-  color: #5f3dc4;
+.cherry.theme__MACIDER .cherry-toolbar .cherry-toolbar-button,
+.cherry.theme__MACIDER .cherry-floatmenu .cherry-toolbar-button,
+.cherry.theme__MACIDER .cherry-bubble .cherry-toolbar-button,
+.cherry.theme__MACIDER .cherry-sidebar .cherry-toolbar-button {
+  color: #aba72f;
 }
-.cherry.theme__VIOLET .cherry-toolbar .cherry-toolbar-button i,
-.cherry.theme__VIOLET .cherry-floatmenu .cherry-toolbar-button i,
-.cherry.theme__VIOLET .cherry-bubble .cherry-toolbar-button i,
-.cherry.theme__VIOLET .cherry-sidebar .cherry-toolbar-button i {
-  color: #5f3dc4;
+.cherry.theme__MACIDER .cherry-toolbar .cherry-toolbar-button i,
+.cherry.theme__MACIDER .cherry-floatmenu .cherry-toolbar-button i,
+.cherry.theme__MACIDER .cherry-bubble .cherry-toolbar-button i,
+.cherry.theme__MACIDER .cherry-sidebar .cherry-toolbar-button i {
+  color: #aba72f;
 }
-.cherry.theme__VIOLET .cherry-toolbar .cherry-toolbar-button:hover,
-.cherry.theme__VIOLET .cherry-floatmenu .cherry-toolbar-button:hover,
-.cherry.theme__VIOLET .cherry-bubble .cherry-toolbar-button:hover,
-.cherry.theme__VIOLET .cherry-sidebar .cherry-toolbar-button:hover {
-  background-color: #845ef7;
-  color: #f3f0ff !important;
-  border-color: #FFF;
+.cherry.theme__MACIDER .cherry-toolbar .cherry-toolbar-button:hover,
+.cherry.theme__MACIDER .cherry-floatmenu .cherry-toolbar-button:hover,
+.cherry.theme__MACIDER .cherry-bubble .cherry-toolbar-button:hover,
+.cherry.theme__MACIDER .cherry-sidebar .cherry-toolbar-button:hover {
+  background-color: #cec938;
+  color: #fef83e !important;
+  border-color: #f3ed41;
 }
-.cherry.theme__VIOLET .cherry-toolbar .cherry-toolbar-button:hover i,
-.cherry.theme__VIOLET .cherry-floatmenu .cherry-toolbar-button:hover i,
-.cherry.theme__VIOLET .cherry-bubble .cherry-toolbar-button:hover i,
-.cherry.theme__VIOLET .cherry-sidebar .cherry-toolbar-button:hover i {
-  color: #f3f0ff !important;
+.cherry.theme__MACIDER .cherry-toolbar .cherry-toolbar-button:hover i,
+.cherry.theme__MACIDER .cherry-floatmenu .cherry-toolbar-button:hover i,
+.cherry.theme__MACIDER .cherry-bubble .cherry-toolbar-button:hover i,
+.cherry.theme__MACIDER .cherry-sidebar .cherry-toolbar-button:hover i {
+  color: #fef83e !important;
 }
-.cherry.theme__VIOLET .cherry-dropdown {
-  background: #FFF;
+.cherry.theme__MACIDER .cherry-dropdown {
+  background: #f3ed41;
   /** 选择颜色的按钮 */
 }
-.cherry.theme__VIOLET .cherry-dropdown .cherry-dropdown-item {
-  color: #5f3dc4;
+.cherry.theme__MACIDER .cherry-dropdown .cherry-dropdown-item {
+  color: #aba72f;
 }
-.cherry.theme__VIOLET .cherry-dropdown .cherry-dropdown-item:hover {
-  background-color: #845ef7;
-  color: #f3f0ff;
+.cherry.theme__MACIDER .cherry-dropdown .cherry-dropdown-item:hover {
+  background-color: #cec938;
+  color: #fef83e;
 }
-.cherry.theme__VIOLET .cherry-dropdown.cherry-color-wrap {
+.cherry.theme__MACIDER .cherry-dropdown.cherry-color-wrap {
   /** 色盘的标题 */
   /** 色盘里的每一个色块 */
 }
-.cherry.theme__VIOLET .cherry-dropdown.cherry-color-wrap h3 {
-  color: #5f3dc4;
+.cherry.theme__MACIDER .cherry-dropdown.cherry-color-wrap h3 {
+  color: #aba72f;
 }
-.cherry.theme__VIOLET .cherry-dropdown.cherry-color-wrap .cherry-color-item {
-  border-color: #845ef7;
+.cherry.theme__MACIDER .cherry-dropdown.cherry-color-wrap .cherry-color-item {
+  border-color: #cec938;
 }
-.cherry.theme__VIOLET .cherry-dropdown.cherry-color-wrap .cherry-color-item:hover {
-  border-color: #5f3dc4;
+.cherry.theme__MACIDER .cherry-dropdown.cherry-color-wrap .cherry-color-item:hover {
+  border-color: #9f9b2c;
 }
-.cherry.theme__VIOLET .cherry-bubble {
+.cherry.theme__MACIDER .cherry-bubble {
   /** 粘贴HTML内容时弹出的选择按钮 */
 }
-.cherry.theme__VIOLET .cherry-bubble .cherry-bubble-bottom {
-  border-top-color: #FFF;
+.cherry.theme__MACIDER .cherry-bubble .cherry-bubble-bottom {
+  border-top-color: #f3ed41;
 }
-.cherry.theme__VIOLET .cherry-editor {
-  background-color: #FFF;
+.cherry.theme__MACIDER .cherry-editor {
+  background-color: #fef83e;
 }
-.cherry.theme__VIOLET .cherry-editor .CodeMirror {
-  background-color: #FFF;
+.cherry.theme__MACIDER .cherry-editor .CodeMirror {
+  background-color: #fef83e;
 }
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-cursor {
-  border-left: 1px solid #5f3dc4;
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-cursor {
+  border-left: 1px solid #9f9b2c;
 }
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-scroll span,
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-scroll .cm-variable-2,
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-scroll .cm-string,
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-scroll .cm-strong,
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-scroll .cm-em,
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-scroll .cm-meta {
-  color: #5f3dc4;
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-scroll span,
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-scroll .cm-variable-2,
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-scroll .cm-string,
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-scroll .cm-strong,
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-scroll .cm-em,
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-scroll .cm-meta {
+  color: #9f9b2c;
 }
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-scroll .cm-image-marker,
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-scroll .cm-quote,
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-scroll .cm-header {
-  color: #7048e8;
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-scroll .cm-image-marker,
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-scroll .cm-quote,
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-scroll .cm-header {
+  color: #b7b232;
 }
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-scroll .cm-url {
-  background-color: #f3f0ff;
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-scroll .cm-url {
+  background-color: #f3ed41;
 }
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-scroll .cm-comment,
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-scroll .cm-url {
-  color: #7950f2;
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-scroll .cm-comment,
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-scroll .cm-url {
+  color: #cec938;
 }
-.cherry.theme__VIOLET .cherry-editor .CodeMirror .CodeMirror-selected {
-  background-color: #d0bfff;
+.cherry.theme__MACIDER .cherry-editor .CodeMirror .CodeMirror-selected {
+  background-color: #ede73f;
 }
-.cherry.theme__VIOLET .cherry-sidebar {
-  box-shadow: 0 0 10px rgba(128, 145, 165, 0.2);
+.cherry.theme__MACIDER .cherry-sidebar {
+  box-shadow: 0 0 10px #ede73f;
 }
-.cherry.theme__VIOLET .cherry-previewer {
-  background-color: #f3f0ff;
+.cherry.theme__MACIDER .cherry-previewer {
+  background-color: #fef83e;
 }
-.cherry.theme__VIOLET .cherry-previewer .cherry-mobile-previewer-content {
-  background-color: #FFF;
+.cherry.theme__MACIDER .cherry-previewer .cherry-mobile-previewer-content {
+  background-color: #fef83e;
 }
-.cherry.theme__VIOLET .cherry-previewer-table-content-hander .cherry-previewer-table-content-hander__input textarea {
-  background-color: #FFF;
-  color: #5f3dc4;
-  outline-color: #7048e8;
+.cherry.theme__MACIDER .cherry-previewer-table-content-hander .cherry-previewer-table-content-hander__input textarea {
+  background-color: #fef83e;
+  color: #9f9b2c;
+  outline-color: #b7b232;
 }
 
 /** 预览区域样式 */
-.cherry-markdown.theme__violet {
-  color: #5f3dc4;
+.cherry-markdown.theme__macider {
+  color: #9f9b2c;
   /** 行内代码 */
   /** 
   * 代码块
@@ -3832,116 +3832,113 @@ div[data-type=codeBlock] .token.inserted {
   /** 段落公式 */
   /** 目录 */
 }
-.cherry-markdown.theme__violet h1,
-.cherry-markdown.theme__violet h2,
-.cherry-markdown.theme__violet h3,
-.cherry-markdown.theme__violet h4,
-.cherry-markdown.theme__violet h5 {
-  color: #7048e8;
-  text-align: center;
+.cherry-markdown.theme__macider h1,
+.cherry-markdown.theme__macider h2,
+.cherry-markdown.theme__macider h3,
+.cherry-markdown.theme__macider h4,
+.cherry-markdown.theme__macider h5 {
+  color: #b7b232;
+  border-bottom: 1px dashed #aba72f;
   margin-bottom: 35px;
 }
-.cherry-markdown.theme__violet h1,
-.cherry-markdown.theme__violet h2,
-.cherry-markdown.theme__violet h3,
-.cherry-markdown.theme__violet h4,
-.cherry-markdown.theme__violet h5,
-.cherry-markdown.theme__violet h6 {
+.cherry-markdown.theme__macider h1,
+.cherry-markdown.theme__macider h2,
+.cherry-markdown.theme__macider h3,
+.cherry-markdown.theme__macider h4,
+.cherry-markdown.theme__macider h5,
+.cherry-markdown.theme__macider h6 {
   /** 标题前面的锚点或序号 */
 }
-.cherry-markdown.theme__violet ul {
+.cherry-markdown.theme__macider ul {
   /** checklist 模式，未勾选时 */
   /** checklist 模式，勾选时 */
 }
-.cherry-markdown.theme__violet ul.cherry-list__upper-roman {
+.cherry-markdown.theme__macider ul.cherry-list__upper-roman {
   list-style: upper-roman;
 }
-.cherry-markdown.theme__violet ul.cherry-list__lower-greek {
+.cherry-markdown.theme__macider ul.cherry-list__lower-greek {
   list-style: lower-greek;
 }
-.cherry-markdown.theme__violet ul.cherry-list__cjk-ideographic {
+.cherry-markdown.theme__macider ul.cherry-list__cjk-ideographic {
   list-style: cjk-ideographic;
 }
-.cherry-markdown.theme__violet ul.cherry-list__circle {
+.cherry-markdown.theme__macider ul.cherry-list__circle {
   list-style: circle;
 }
-.cherry-markdown.theme__violet ul.cherry-list__square {
+.cherry-markdown.theme__macider ul.cherry-list__square {
   list-style: square;
 }
-.cherry-markdown.theme__violet blockquote {
-  color: #5f3dc4;
-  background-color: #e5dbff;
-  border-color: #6741d9;
+.cherry-markdown.theme__macider blockquote {
+  color: #9f9b2c;
+  background-color: #f3ed41;
+  border-color: #aba72f;
 }
-.cherry-markdown.theme__violet a {
+.cherry-markdown.theme__macider a {
   text-decoration: none;
-  color: #7950f2;
+  color: #cec938;
 }
-.cherry-markdown.theme__violet a:hover {
+.cherry-markdown.theme__macider a:hover {
   text-decoration: underline;
-  color: #7048e8;
+  color: #b7b232;
 }
-.cherry-markdown.theme__violet hr {
-  border-color: #6741d9;
+.cherry-markdown.theme__macider hr {
+  border-color: #aba72f;
 }
-.cherry-markdown.theme__violet p code,
-.cherry-markdown.theme__violet li code {
-  background-color: #e5dbff;
-  color: #7950f2;
-  border: 1px solid #6741d9;
+.cherry-markdown.theme__macider p code,
+.cherry-markdown.theme__macider li code {
+  background-color: #f3ed41;
+  color: #cec938;
+  border: 1px solid #aba72f;
 }
-.cherry-markdown.theme__violet table,
-.cherry-markdown.theme__violet .cherry-table {
-  color: #5f3dc4;
+.cherry-markdown.theme__macider table,
+.cherry-markdown.theme__macider .cherry-table {
+  color: #9f9b2c;
 }
-.cherry-markdown.theme__violet table th,
-.cherry-markdown.theme__violet .cherry-table th {
-  background-color: #e5dbff;
+.cherry-markdown.theme__macider table th,
+.cherry-markdown.theme__macider .cherry-table th {
+  background-color: #f3ed41;
 }
-.cherry-markdown.theme__violet table tr,
-.cherry-markdown.theme__violet table th,
-.cherry-markdown.theme__violet table td,
-.cherry-markdown.theme__violet .cherry-table tr,
-.cherry-markdown.theme__violet .cherry-table th,
-.cherry-markdown.theme__violet .cherry-table td {
-  border-color: #6741d9;
+.cherry-markdown.theme__macider table tr,
+.cherry-markdown.theme__macider table th,
+.cherry-markdown.theme__macider table td,
+.cherry-markdown.theme__macider .cherry-table tr,
+.cherry-markdown.theme__macider .cherry-table th,
+.cherry-markdown.theme__macider .cherry-table td {
+  border-color: #aba72f;
 }
-.cherry-markdown.theme__violet ruby {
+.cherry-markdown.theme__macider ruby {
   /** 上部的拼音 */
 }
-.cherry-markdown.theme__violet .footnote {
-  border-color: #6741d9;
+.cherry-markdown.theme__macider .footnote {
+  border-color: #aba72f;
 }
-.cherry-markdown.theme__violet .footnote .footnote-title {
-  background-color: #e5dbff;
+.cherry-markdown.theme__macider .footnote .footnote-title {
+  background-color: #f3ed41;
 }
-.cherry-markdown.theme__violet .footnote .one-footnote {
-  color: #5f3dc4;
-  border-color: #6741d9;
+.cherry-markdown.theme__macider .footnote .one-footnote {
+  color: #9f9b2c;
+  border-color: #aba72f;
 }
-.cherry-markdown.theme__violet .footnote .one-footnote a.footnote-ref {
+.cherry-markdown.theme__macider .footnote .one-footnote a.footnote-ref {
   padding: 5px;
 }
-.cherry-markdown.theme__violet .toc {
-  border-bottom: 1px solid #6741d9;
+.cherry-markdown.theme__macider .toc {
+  border-bottom: 1px solid #aba72f;
   padding-bottom: 15px;
   margin-bottom: 30px;
 }
-.cherry-markdown.theme__violet .toc .toc-title {
+.cherry-markdown.theme__macider .toc .toc-title {
   text-align: center;
   padding-bottom: 15px;
   margin-top: 30px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #6741d9;
+  border-bottom: 1px solid #aba72f;
 }
-.cherry-markdown.theme__violet .toc .toc-li {
-  border: none;
+.cherry-markdown.theme__macider .toc .toc-li a {
+  color: #9f9b2c;
 }
-.cherry-markdown.theme__violet .toc .toc-li a {
-  color: #5f3dc4;
-}
-.cherry-markdown.theme__violet .toc .toc-li a:hover {
-  color: #7048e8;
+.cherry-markdown.theme__macider .toc .toc-li a:hover {
+  color: #b7b232;
 }
 
 /* BASICS */

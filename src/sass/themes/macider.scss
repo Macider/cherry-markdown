@@ -1,46 +1,74 @@
 @import '../variable.scss';
 
-$VIOLET0: #f3f0ff;
-$VIOLET1: #e5dbff;
-$VIOLET2: #d0bfff;
-$VIOLET3: #b197fc;
-$VIOLET4: #9775fa;
-$VIOLET5: #845ef7;
-$VIOLET6: #7950f2;
-$VIOLET7: #7048e8;
-$VIOLET8: #6741d9;
-$VIOLET9: #5f3dc4;
+$MACIDER0: #fef83e;
+$MACIDER1: #f3ed41;
+$MACIDER2: #ede73f;
+$MACIDER3: #ded83d;
+$MACIDER4: #d6d13a;
+$MACIDER5: #cec938;
+$MACIDER6: #c3be35;
+$MACIDER7: #b7b232;
+$MACIDER8: #aba72f;
+$MACIDER9: #9f9b2c;
+
+// /** 工具栏样式 */
+// $toolbarBg: $MACIDER1;
+// $toolbarBtnColor: $MACIDER9;
+// $toolbarBtnBgHover: $MACIDER5;
+// $toolbarBtnHoverColor: $MACIDER0;
+// $toolbarColorItemHoverBorderColor: $MACIDER9;
+// $sidebarShadow: 0 0 10px $MACIDER2;
+// /** 编辑区域样式 */
+// $editorBg: $MACIDER0;
+// $editorColor: $MACIDER9;
+// $editorSelectedBg: $MACIDER2;
+// $editorUrlBg: $MACIDER0;
+// $editorCursorColor: $MACIDER9;
+// $editorImportantColor: $MACIDER7;
+// $editorCodeColor: $MACIDER6;
+// /** 预览区域样式 */
+// $previewBg: $MACIDER0;
+// $previewMobileBgColor: $editorBg;
+// /** markdown样式 */
+// $mdColor: $editorColor;
+// $mdHeaderColor: $editorImportantColor;
+// $mdLineColor: $MACIDER8;
+// $mdAColor: $editorCodeColor;
+// $mdAHoverColor: $editorImportantColor;
+// $mdInlineCodeColor: $editorCodeColor;
+// $mdInlineCodeBg: $MACIDER1;
+// $mdBlockquoteBg: $MACIDER1;
 
 /** 工具栏样式 */
-$toolbarBg: #FFF;
-$toolbarBtnColor: $VIOLET9;
-$toolbarBtnBgHover: $VIOLET5;
-$toolbarBtnHoverColor: $VIOLET0;
-$toolbarColorItemHoverBorderColor: $VIOLET9;
-$sidebarShadow: $shadow;
+$toolbarBg: $MACIDER1;
+$toolbarBtnColor: $MACIDER8;
+$toolbarBtnBgHover: $MACIDER5;
+$toolbarBtnHoverColor: $MACIDER0;
+$toolbarColorItemHoverBorderColor: $MACIDER9;
+$sidebarShadow: 0 0 10px $MACIDER2;
 /** 编辑区域样式 */
-$editorBg: #FFF;
-$editorColor: $VIOLET9;
-$editorSelectedBg: $VIOLET2;
-$editorUrlBg: $VIOLET0;
-$editorCursorColor: $VIOLET9;
-$editorImportantColor: $VIOLET7;
-$editorCodeColor: $VIOLET6;
+$editorBg: $MACIDER0;
+$editorColor: $MACIDER9;
+$editorSelectedBg: $MACIDER2;
+$editorUrlBg: $MACIDER1;
+$editorCursorColor: $MACIDER9;
+$editorImportantColor: $MACIDER7;
+$editorCodeColor: $MACIDER5;
 /** 预览区域样式 */
-$previewBg: $VIOLET0;
-$previewMobileBgColor: #FFF;
+$previewBg: $MACIDER0;
+$previewMobileBgColor: $editorBg;
 /** markdown样式 */
 $mdColor: $editorColor;
 $mdHeaderColor: $editorImportantColor;
-$mdLineColor: $VIOLET8;
+$mdLineColor: $MACIDER8;
 $mdAColor: $editorCodeColor;
 $mdAHoverColor: $editorImportantColor;
 $mdInlineCodeColor: $editorCodeColor;
-$mdInlineCodeBg: $VIOLET1;
-$mdBlockquoteBg: $VIOLET1;
+$mdInlineCodeBg: $MACIDER1;
+$mdBlockquoteBg: $MACIDER1;
 
 /** 编辑器样式 */
-.cherry.theme__VIOLET {
+.cherry.theme__MACIDER {
 
   /** 顶部按钮, 选中文字时弹出的按钮, 光标focus到空行时联想出的按钮, 侧边栏按钮 */
   .cherry-toolbar,
@@ -165,7 +193,6 @@ $mdBlockquoteBg: $VIOLET1;
 
   .cherry-previewer {
     background-color: $previewBg;
-
     .cherry-mobile-previewer-content {
       background-color: $previewMobileBgColor;
     }
@@ -184,7 +211,7 @@ $mdBlockquoteBg: $VIOLET1;
 }
 
 /** 预览区域样式 */
-.cherry-markdown.theme__violet {
+.cherry-markdown.theme__macider {
   color: $mdColor;
 
   p,
@@ -196,7 +223,8 @@ $mdBlockquoteBg: $VIOLET1;
   h4,
   h5 {
     color: $mdHeaderColor;
-    text-align: center;
+    // text-align: center;            // 取消居中
+    border-bottom: 1px dashed $mdLineColor;   //标题下加虚线
     margin-bottom: 35px;
   }
 
@@ -369,7 +397,7 @@ $mdBlockquoteBg: $VIOLET1;
     }
 
     .toc-li {
-      border: none;
+      // border: none;
 
       .level-1 {}
 
