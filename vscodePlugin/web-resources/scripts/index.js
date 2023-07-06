@@ -83,6 +83,10 @@ const customMenuChangeTheme = Cherry.createMenuHook('主题',  {
     { noIcon: true, name: '热情·red', onclick: () => {
       cherry.toolbar.menus.hooks.customMenuChangeTheme.fire(null, 'red');
     } },
+    { noIcon: true, name: '淡雅·violet', onclick: () => {
+        cherry.toolbar.menus.hooks.customMenuChangeTheme.fire(null, 'violet');
+      }
+    },
   ],
 });
 
